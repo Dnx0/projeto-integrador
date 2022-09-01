@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles/reset.css">
+  <link rel="stylesheet" href="./styles/Login/cadastro.css">
+  <link rel="stylesheet" href="./styles/global.css">
+  <link rel="stylesheet" href="./styles/Login/login-responsive.css">
+  <script src="https://kit.fontawesome.com/9ae2018d1c.js" crossorigin="anonymous"></script>
+  <script src="js/main.js"></script>
+  
+
+  <title>Cadastro | Charlie Bookstore</title>
+</head>
+<body>
+  
+<div class="logo">
+  <img src="../imgs/logo-ch.png" alt="" srcset="">
+</div>
+
+  <div class="container">
+
+    <div class="fields">
+
+      <div class="fields__title">
+        <p id="field__title">Cadastra-se no <span class="bravo-font-color">Charlie Bookstore</span> <span>É rápido e fácil</span></p>
+      </div>
+
+      <form action="cadastro.php" method="post">
+      <div class="fields__textboxs">
+      <input type="text" placeholder="Nome" name="" id="field__name">
+      <input type="text" placeholder="Sobrenome" name="" id="field__sobrename">
+        <input type="email" placeholder="E-mail" name="" id="field__email">
+        <input type="data" placeholder="Data de nascimento" name="" id="field_data">
+        <input type="password" placeholder="Nova Senha" name="" id="field_pass">
+      </div>
+      
+      <div class="fields__genero">    
+        <p class="fields__genero">Gênero</p>
+        <label for="radio-feminino"><input type="radio" name="field_remember" value="feminino" id="radio-feminino">Feminino</label>
+        <label for="radio-telefone"><input type="radio" name="field_remember" value="telefone" id="radio-telefone">Masculino</label>
+        <label for="radio-whatsapp"><input type="radio" name="field_remember" id="radio-whatsapp">Personalizado</label>				
+    </div>
+
+      <div class="fields_buttons">
+          <button id="btnlogin" class="bravo-button-bg">Cadastra-se</button>
+      </div>
+      </form>
+</div>
+
+
+    </div>
+  </div>
+
+</body>
+</html>
