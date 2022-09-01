@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Integrador</title>
+    <!--Css-->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!--Fontes do google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <!--Header-->
+    <header>
+       <img src="img/logo.png" alt="logo" class="logo">
+       <!--Área do Nav-->
+        <nav> <ul>
+           <a href="#"> <li>Home</li></a>
+           <a href="#"> <li>Produtos</li></a>
+            <a href="#"><li>Cadastro</li></a>
+            <a href="#"><li>Minhas compras</li></a>
+        </ul> </nav>
+    </header>
+    <br>
+    <br>
+    <h1>Faça seu cadastro</h1>
+    <br>
+    <!--Área do formulário-->
+    <main class="form" id="area">
+    <form id="area" method="post" action="envio_dados.php">        
+        <fieldset>
+        <label for="nome">Nome Completo</label><br>
+        <input type="text" name="nome" placeholder="Nome completo"><br>
+        <label for="email">E-mail</label><br>
+        <input type="e-mail" name="email" placeholder="E-mail válido"><br>
+        <label for="endereco">Endereço</label><br>
+        <input type="text" name="endereço" placeholder="Digite seu endereço"> <input type="number" name="numero" placeholder="Número" > <br>
+        <label for="cpf">Digite seu cpf</label><br>
+        <input type="number" name="cpf" placeholder="Digite seu cpf"><br>
+        <label for="senha">Crie sua senha</label><br>
+        <input type="text" name="senha" placeholder="Digite sua senha"><br>
+        <label for="confirm">Repita a senha</label><br>
+        <input type="text" name="confirm" placeholder="Confirme a senha"><br><br>
+        <!--Botão enviar-->
+        <input type="submit" name="enviar" value="Enviar">    
+    </fieldset>
+    </form>
+</main>
+</body>
+</html>
